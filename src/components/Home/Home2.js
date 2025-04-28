@@ -16,39 +16,38 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              PERMETTEZ-MOI DE ME <span className="purple">PRÉSENTER</span>
             </h1>
             <p className="home-about-body">
-              I fell in love with cybersecurity and programming, and I have learned
-              quite a bit along the way... 🔐
+              Passionné par le DevOps et le Cloud Computing, j'ai acquis au fil des années une solide expertise dans ces domaines... ☁️
               <br />
-              <br />I am fluent in languages like
+              <br />Je maîtrise les langages et technologies comme
               <i>
-                <b className="purple"> Python, C, Java, Rust, and JavaScript. </b>
+                <b className="purple"> Python, Bash, Terraform, Docker et Kubernetes. </b>
               </i>
               <br />
               <br />
-              My fields of Interest are building new &nbsp;
+              Mes domaines de prédilection incluent le développement de &nbsp;
               <i>
-                <b className="purple">Web Technologies and Applications </b> and
-                also in areas related to{" "}
+                <b className="purple">Solutions Cloud Scalables </b> ainsi que
+                l'implémentation de{" "}
                 <b className="purple">
-                  Cybersecurity and Penetration Testing.
+                  pipelines CI/CD automatisés.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">React.js</b> and
+              Je m'applique également à concevoir des architectures
+              avec <b className="purple">AWS</b> et
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Libraries and Frameworks
+                  des outils d'infrastructure as code
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; comme
               <i>
-                <b className="purple"> Express.js and Node.js</b>
+                <b className="purple"> Ansible et Terraform</b>
               </i>
             </p>
           </Col>
@@ -60,14 +59,14 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>RETROUVEZ-MOI SUR</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              N'hésitez pas à me <span className="purple">contacter</span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/aliamouz"
+                  href="https://github.com/Jiyanson"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -77,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/aliamouz"
+                  href="https://twitter.com/ayoubakour"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -87,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/ali-amouz/"
+                  href="https://www.linkedin.com/in/ayoub-akour-6934a32b8/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -97,7 +96,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/aliamouz"
+                  href="https://www.instagram.com/ayoubakour"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
