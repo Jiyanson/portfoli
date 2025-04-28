@@ -14,49 +14,55 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              PERMETTEZ-MOI DE ME <span className="purple">PRÉSENTER</span>
-            </h1>
-            <p className="home-about-body">
-              Passionné par le DevOps et le Cloud Computing, j'ai acquis au fil des années une solide expertise dans ces domaines... ☁️
-              <br />
-              <br />Je maîtrise les langages et technologies comme
-              <i>
-                <b className="purple"> Python, Bash, Terraform, Docker et Kubernetes. </b>
-              </i>
-              <br />
-              <br />
-              Mes domaines de prédilection incluent le développement de &nbsp;
-              <i>
-                <b className="purple">Solutions Cloud Scalables </b> ainsi que
-                l'implémentation de{" "}
-                <b className="purple">
-                  pipelines CI/CD automatisés.
-                </b>
-              </i>
-              <br />
-              <br />
-              Je m'applique également à concevoir des architectures
-              avec <b className="purple">AWS</b> et
-              <i>
-                <b className="purple">
-                  {" "}
-                  des outils d'infrastructure as code
-                </b>
-              </i>
-              &nbsp; comme
-              <i>
-                <b className="purple"> Ansible et Terraform</b>
-              </i>
-            </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
-        </Row>
+  <Col md={8} className="home-about-description">
+    <h1 style={{ fontSize: "2.6em" }}>
+      PERMETTEZ-MOI DE ME <span className="purple">PRÉSENTER</span>
+    </h1>
+    <p className="home-about-body">
+      Étudiant en ingénierie logicielle passionné par le développement logiciel, le cloud computing et l'architecture des systèmes. ☁️
+      <br />
+      <br />
+      Je maîtrise les technologies et concepts clés comme
+      <i>
+        <b className="purple"> Docker, Kubernetes, AWS, et les architectures microservices. </b>
+      </i>
+      <br />
+      <br />
+      Mes compétences s'articulent autour de &nbsp;
+      <i>
+        <b className="purple">l'automatisation des déploiements </b> et
+        la conception d'infrastructures{" "}
+        <b className="purple">
+          scalables et sécurisées.
+        </b>
+      </i>
+      <br />
+      <br />
+      Je développe également des applications
+      avec <b className="purple">React et Node.js</b> tout en
+      <i>
+        <b className="purple">
+          {" "}
+          m'appuyant sur les bonnes pratiques DevOps
+        </b>
+      </i>
+      &nbsp; comme
+      <i>
+        <b className="purple"> CI/CD, monitoring et infrastructure as code</b>
+      </i>
+      <br />
+      <br />
+      Curieux, rigoureux et engagé, je m'investis pleinement dans mes projets académiques et personnels. 
+      Mon objectif est de contribuer à des environnements innovants où je pourrai développer mes compétences 
+      techniques et évoluer vers des rôles à responsabilité.
+    </p>
+  </Col>
+  <Col md={4} className="myAvtar">
+    <Tilt>
+      <img src={myImg} className="img-fluid" alt="avatar" />
+    </Tilt>
+  </Col>
+</Row>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>RETROUVEZ-MOI SUR</h1>
